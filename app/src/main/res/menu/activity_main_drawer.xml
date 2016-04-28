@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/people"
+            android:icon="@drawable/ic_people_vector"
+            android:title="@string/people" />
+
+        <item
+            android:id="@+id/data_base"
+            android:icon="@drawable/ic_database_vector"
+            android:title="@string/baseHierarchies" />
+
+        <item
+            android:id="@+id/model"
+            android:icon="@drawable/ic_model_vector"
+            android:title="@string/modelKeo" />
+
+
+        <item
+            android:id="@+id/methods"
+            android:icon="@drawable/ic_method_keo_vector"
+            android:title="@string/method" />
+
+        <item
+            android:id="@+id/methods_adapters"
+            android:icon="@drawable/ic_method_adapter_vector"
+            android:title="@string/method_adapters" />
+
+
+
+    </group>
+
+
+
+</menu>

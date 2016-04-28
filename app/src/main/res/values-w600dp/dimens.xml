@@ -1,0 +1,14 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7"  devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <dimen name="w_card_login">300dp</dimen>
+    <dimen name="min_h_card_login">250dp</dimen>
+
+    <dimen name="hw_avatar">100dp</dimen>
+    <dimen name="hw_avatar_src">85dp</dimen>
+
+    <dimen name="margin_text_login">60dp</dimen>
+</resources>

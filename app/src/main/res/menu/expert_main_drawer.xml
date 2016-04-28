@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/label1"
+            android:icon="@drawable/ic_label_vector"
+            android:title="Selection KEO" />
+
+        <item
+            android:id="@+id/label2"
+            android:icon="@drawable/ic_label_vector"
+            android:title="Synthesis KEO" />
+
+        <item
+            android:id="@+id/label3"
+            android:icon="@drawable/ic_label_vector"
+            android:title="Evaluation met. voting" />
+
+
+        <item
+            android:id="@+id/label4"
+            android:icon="@drawable/ic_label_vector"
+            android:title="Eval. on hier. analysis" />
+
+        <item
+            android:id="@+id/label5"
+            android:icon="@drawable/ic_label_vector"
+            android:title="The final decision" />
+
+        <item
+            android:id="@+id/label6"
+            android:icon="@drawable/ic_label_vector"
+            android:title="Collective assessment" />
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_label_vector"
+            android:title="View KEO report" />
+
+
+
+    </group>
+
+
+
+</menu>

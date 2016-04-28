@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Diploma</string>
+    <string name="sign">Sign in to your account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="people">Users</string>
+    <string name="users">Users:</string>
+    <string name="firstName">First Name</string>
+    <string name="name">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="login">Login</string>
+    <string name="userType">User type:</string>
+    <string name="Administrator">Administrator</string>
+
+    <string-array name="typesUsers">
+        <item>Expert</item>
+        <item>Administrator</item>
+        <item>Leading expert</item>
+    </string-array>
+
+    <string name="add">Add</string>
+    <string name="fillInAllTheFields">Fill in all the fields</string>
+    <string name="baseHierarchies">Base hierarchies</string>
+    <string name="modelKeo">Model KEO</string>
+
+    <string name="about_yourself">About yourself: </string>
+    <string name="privilege">Privilege: </string>
+    <string name="session_termination">Session termination: </string>
+    <string name="Set_Online">Set Online </string>
+    <string name="Set_Offline">Set Offline </string>
+    <string name="method">Method КЕО</string>
+    <string name="method_adapters">Method adapters</string>
+</resources>

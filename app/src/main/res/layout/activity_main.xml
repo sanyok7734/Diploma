@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4285f4"
+        android:elevation="3dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:theme="@style/ToolbarDarkOverflow"
+            app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <io.codetail.widget.RevealFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="250dp">
+
+            <FrameLayout
+                android:id = "@+id/touch_container"
+                android:background="@android:color/transparent"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:clickable="true"/>
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#edecec" />
+
+            <FrameLayout
+                android:id = "@+id/anim"
+                android:background="#edecec"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </io.codetail.widget.RevealFrameLayout>
+
+
+        <android.support.design.widget.NavigationView
+
+            android:id="@+id/nav_view"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:fitsSystemWindows="true"
+            app:elevation="2dp"
+            app:headerLayout="@layout/nav_header_main"
+            app:itemIconTint="#a0000000"
+            app:itemTextColor="#a0000000"
+            app:menu="@menu/activity_main_drawer"
+            app:theme="@style/NavigationViewStyle">
+
+        </android.support.design.widget.NavigationView>
+
+    </FrameLayout>
+</LinearLayout>
