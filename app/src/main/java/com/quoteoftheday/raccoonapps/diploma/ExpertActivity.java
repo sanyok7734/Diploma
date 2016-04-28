@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.quoteoftheday.raccoonapps.diploma.mode.pojo.User;
 import com.quoteoftheday.raccoonapps.diploma.view.fragments.FragmentSelectionKEO;
+import com.quoteoftheday.raccoonapps.diploma.view.fragments.FragmentSynthesisKEO;
 import com.quoteoftheday.raccoonapps.diploma.view.fragments.ListHierarchiesFragment;
 import com.quoteoftheday.raccoonapps.diploma.view.fragments.ListMethodAdapterFragment;
 import com.quoteoftheday.raccoonapps.diploma.view.fragments.ListMethodKEOFragment;
@@ -90,10 +91,9 @@ public class ExpertActivity extends AppCompatActivity implements NavigationView.
                 openFragment(new FragmentSelectionKEO());
                 break;
             case R.id.label2:
-                openFragment(new ListHierarchiesFragment());
+                openFragment(new FragmentSynthesisKEO());
                 break;
             case R.id.report:
-                openFragment(new ListModelKEOFragment());
                 break;
         }
         return true;
